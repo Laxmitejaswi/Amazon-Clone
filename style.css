@@ -19,7 +19,7 @@
 }
 
 .logo{
-    background-image: url("Amazon-Logo.png");
+    background-image: url("/Images/Amazon-Logo.png");
     background-size:cover;
     height: 50px;
     width: 150px;
@@ -154,7 +154,7 @@ span{
 
 /* hero section */
 .hero-section{
-    background-image: url("home-image.jpg");
+    background-image: url("/Images/home-image.jpg");
     height: 400px;
     background-size: cover;
     display: flex;
@@ -215,4 +215,71 @@ span{
     color: orange;
 }
 
+/* footer */
 
+.foot-panel-1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    border-top: 15px solid #ffad84;
+}
+
+.foot-panel-2{
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel-2 ul p{
+    font-weight: 800;
+}
+
+.foot-panel-2 ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+
+.foot-panel-2 ul{
+    margin-top: 40px;
+}
+
+.foot-panel-3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-logo{
+    background-image: url("/Images/Amazon-Logo.png");
+    background-size:cover;
+    height: 50px;
+    width: 150px;
+}
+
+.foot-panel-4{
+    background-color: #0f1111;
+    color: white;
+    height: 70px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 20px;
+}
+
+.copyright{
+    margin-top: 5px;
+}
